@@ -147,17 +147,17 @@
     <Image Include="small.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Users\prash\Downloads\dx12tut03_src\dx12tut03_src\source\d3dclass.cpp" />
-    <ClCompile Include="..\..\..\Users\prash\Downloads\dx12tut03_src\dx12tut03_src\source\graphicsclass.cpp" />
-    <ClCompile Include="..\..\..\Users\prash\Downloads\dx12tut03_src\dx12tut03_src\source\inputclass.cpp" />
-    <ClCompile Include="..\..\..\Users\prash\Downloads\dx12tut03_src\dx12tut03_src\source\main.cpp" />
-    <ClCompile Include="..\..\..\Users\prash\Downloads\dx12tut03_src\dx12tut03_src\source\systemclass.cpp" />
+    <ClInclude Include="d3dclass.h" />
+    <ClInclude Include="graphicsclass.h" />
+    <ClInclude Include="inputclass.h" />
+    <ClInclude Include="systemclass.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Users\prash\Downloads\dx12tut03_src\dx12tut03_src\source\d3dclass.h" />
-    <ClInclude Include="..\..\..\Users\prash\Downloads\dx12tut03_src\dx12tut03_src\source\graphicsclass.h" />
-    <ClInclude Include="..\..\..\Users\prash\Downloads\dx12tut03_src\dx12tut03_src\source\inputclass.h" />
-    <ClInclude Include="..\..\..\Users\prash\Downloads\dx12tut03_src\dx12tut03_src\source\systemclass.h" />
+    <ClCompile Include="d3dclass.cpp" />
+    <ClCompile Include="graphicsclass.cpp" />
+    <ClCompile Include="inputclass.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="systemclass.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
